@@ -18,8 +18,9 @@
 }
 
 @media (max-width:768px) {
-.info__header { text-align: center;
-}
+  .info__header {
+    text-align: center;
+  }
 }
 .main_page {
   display: block;
@@ -97,7 +98,6 @@ li {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
