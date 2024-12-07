@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo App</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="style.css" media="screen">
   </head>
   <body class="body">
     <header>
@@ -15,15 +17,15 @@
         </a>
       </section>
     </header>
-    <main>
-    <div class="main_page">
-      <p id="top__section">
+    <main class="main_page">
+      <section id="top__section">
         <label for="new_task">Add Item</label>
         <div class="row__wrapper">
-        <input id="new_task" class="task outline" type="text">
-        <button class="outline">Add</button></div>
-      </p>
-    <h3>Todo</h3>
+          <input id="new_task" class="task outline" type="text">
+          <button class="outline">Add</button>
+        </div>
+      </section>
+    <h1 class="text_task">Todo</h1>
     <ul class="list_item" id="in_complete__tasks">
       <li class="no_style">
         <input class="outline" type="checkbox">
@@ -46,7 +48,7 @@
         </button>
       </li>
     </ul>
-  <h3>Completed </h3>
+  <h2 class="text_task">Completed </h2>
     <ul class="list_item" id="completed_tasks">
       <li class="no_style">
         <input class="outline" type="checkbox" checked>
@@ -58,7 +60,6 @@
         </button>
       </li>
     </ul>
-</div>
     <script src="app.js"></script>
     </main>
   </body>
