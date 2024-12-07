@@ -5,7 +5,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
-  <body>
+  <body class="body">
     <div class="info__header">
       <img src="./eisenhower-matrix.jpg">
       <a class="info__link"
@@ -17,42 +17,43 @@
       <p id="top__section">
         <label for="new_task">Add Item</label>
         <div class="row__wrapper">
-        <input id="new_task" class="task" type="text">
-        <button>Add</button></div>
+        <input id="new_task" class="task outline" type="text">
+        <button class="outline">Add</button></div>
       </p>
     <h3>Todo</h3>
-    <ul id="in_complete__tasks">
-      <li>
-        <input type="checkbox">
+    <ul class="list_item" id="in_complete__tasks">
+      <li class="no_style">
+        <input class="outline" type="checkbox">
         <label class="task">Pay Bills</label>
-        <input type="text" class="task">
-        <button class="edit_button">Edit</button>
-        <button class="delete_button">
+        <input type="text" class="task outline">
+        <button class="edit_button outline">Edit</button>
+        <button class="delete_button outline">
           <img src="./remove.svg">
         </button>
       </li>
-      <li class="edit__mode">
-        <input type="checkbox">
+      <li class="edit__mode no_style">
+        <input class="outline" type="checkbox">
         <label class="task">Go Shopping</label>
         <input type="text"
           value="Go Shopping"
-          class="task">
-        <button class="edit_button">Save</button>
-        <button class="delete_button">
+          class="task outline">
+        <button class="edit_button outline">Save</button>
+        <button class="delete_button outline">
           <img src="./remove.svg">
         </button>
       </li>
     </ul>
   <h3>Completed</h3>
-    <ul id="completed_tasks">
-      <li><input type="checkbox" checked>
+    <ul class="list_item" id="completed_tasks">
+      <li class="no_style">
+        <input class="outline" type="checkbox" checked>
         <label class="task">See the Doctor</label>
-        <input type="text" class="task">
-        <button class="edit_button">Edit</button>
-        <button class="delete_button">
+        <input type="text" class="task outline">
+        <button class="edit_button outline">Edit</button>
+        <button class="delete_button outline">
           <img src="./remove.svg">
         </button>
-    </li>
+      </li>
     </ul>
 </div>
     <script src="app.js"></script>

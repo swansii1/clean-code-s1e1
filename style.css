@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -34,14 +34,14 @@ body {
 .row__wrapper {
   display: flex;
 }
-ul {
+.list_item {
   margin:0;
   padding: 0px;
 }
-li, h3 {
+.no_style, h3 {
   list-style:none;
 }
-input,button{
+.outline{
   outline:none;
 }
 button {
