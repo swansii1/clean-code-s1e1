@@ -9,11 +9,11 @@
   </head>
   <body class="body">
     <header>
-      <div class="info__header">
+      <div class="header">
         <img src="./eisenhower-matrix.jpg" alt="Info Photo">
         <h4>
           <a
-            class="info__link"
+            class="header__link"
             href="https://goal-life.com/page/method/matrix-eisenhower">
             Want more details?
           </a>
@@ -21,25 +21,25 @@
       </div>
     </header>
     <main class="main_page">
-      <div id="top__section">
+      <div class="top-section">
         <label for="new_task">Add Item</label>
-        <div class="row__wrapper">
+        <div class="top-section__row_wrapper">
           <input id="new_task" class="task outline" type="text">
           <button class="outline">Add</button>
         </div>
       </div>
       <h1 class="text_task">Todo</h1>
-      <ul class="list_item" id="in_complete__tasks">
-        <li class="no_style">
-          <input class="outline" type="checkbox">
+      <ul class="list-item" id="in_complete__tasks">
+        <li class="list-item__no_style">
+          <input class="list-item__input outline" type="checkbox">
           <label class="task">Pay Bills</label>
-          <input type="text" class="task outline">
-          <button class="edit_button outline">Edit</button>
-          <button class="delete_button outline">
+          <input type="text" class="list-item__input task outline">
+          <button class="list-item__button edit_button outline">Edit</button>
+          <button class="list-item__button delete_button outline">
             <img src="./remove.svg" alt="Button delete">
           </button>
         </li>
-        <li class="edit__mode no_style">
+        <li class="edit__mode list-item__no_style">
           <input class="outline" type="checkbox">
           <label class="task">Go Shopping</label>
           <input type="text"
@@ -52,8 +52,8 @@
         </li>
       </ul>
     <h2 class="text_task">Completed </h2>
-      <ul class="list_item" id="completed_tasks">
-        <li class="no_style">
+      <ul class="list-item" id="completed_tasks">
+        <li class="list-item__no_style">
           <input class="outline" type="checkbox" checked>
           <label class="task">See the Doctor</label>
           <input type="text" class="task outline">
